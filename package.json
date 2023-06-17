@@ -1,0 +1,44 @@
+{
+  "name": "vue-double-slider",
+  "version": "0.1.0",
+  "description": "Double thumb customizable slider for Vue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx vue-cli-service build --target lib --name index src/DoubleRangeSlider.vue",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertArakelyan/vue-double-slider.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "slider",
+    "range",
+    "input",
+    "duoble",
+    "thumb",
+    "javacript",
+    "html",
+    "js",
+    "custom",
+    "slider"
+  ],
+  "author": "Albert Arakelyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertArakelyan/vue-double-slider/issues"
+  },
+  "homepage": "https://github.com/AlbertArakelyan/vue-double-slider#readme",
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8"
+  }
+}
