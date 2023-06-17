@@ -10,8 +10,8 @@
     }
   },
   "scripts": {
-    "build": "npx vue-cli-service build --name index src/DoubleRangeSlider.vue",
-    "build:lib": "npx vue-cli-service build --target lib --name index src/DoubleRangeSlider.vue",
+    "build": "npx vue-cli-service build --traget lib --name index src/DoubleRangeSlider.vue",
+    "build:common": "npx vue-cli-service build --target lib --name index src/DoubleRangeSlider.vue",
     "prepare": "npm run build"
   },
   "repository": {
