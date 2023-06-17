@@ -4,7 +4,7 @@
 ## Install
 Install with [npm](https://www.npmjs.com/):
 ```sh
-$ npm install is-object-typeof-interface
+$ npm install vue-double-slider
 ```
 
 <!-- usage -->
