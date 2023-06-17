@@ -15,7 +15,7 @@
   </template>
   
 <script>
-import ZbRangeSlider from './RangeSlider.js';
+import ZbRangeSlider from './DoubleRangeSlider.js';
   
 export default {
   props: {
@@ -58,7 +58,7 @@ export default {
       this.$emit('update:max', max)
     }
   }
-};
+}
 </script>
   
 <style>
@@ -114,4 +114,4 @@ export default {
     width: 0%;
     background: orange;
   }
-</style>
+  </style>

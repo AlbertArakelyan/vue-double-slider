@@ -1,21 +1,36 @@
 {
   "name": "vue-double-slider",
-  "version": "0.1.4",
-  "description": "Double thumb customizable slider for Vue",
-  "main": "dist/index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/vue-double-slider.umd.js",
+  "module": "./dist/vue-double-slider.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-double-slider.es.js",
+      "require": "./dist/vue-double-slider.umd.js"
+    },
+    "./dist/styles.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "npx vue-cli-service build --traget lib --name index src/DoubleRangeSlider.vue",
-    "build:common": "npx vue-cli-service build --target lib --name index src/DoubleRangeSlider.vue",
-    "prepare": "npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.9"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlbertArakelyan/vue-double-slider.git"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "keywords": [
     "vue",
     "slider",
@@ -30,15 +45,9 @@
     "slider"
   ],
   "author": "Albert Arakelyan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AlbertArakelyan/vue-double-slider/issues"
   },
-  "homepage": "https://github.com/AlbertArakelyan/vue-double-slider#readme",
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vue/cli-service": "^5.0.8"
-  }
+  "homepage": "https://github.com/AlbertArakelyan/vue-double-slider#readme"
 }
