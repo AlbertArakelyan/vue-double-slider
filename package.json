@@ -1,6 +1,6 @@
 {
   "name": "vue-double-slider",
-  "private": true,
+  "private": false,
   "version": "0.1.5",
   "type": "module",
   "main": "./dist/vue-double-slider.umd.js",
