@@ -1,14 +1,8 @@
 {
   "name": "vue-double-slider",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Double thumb customizable slider for Vue",
-  "main": "./dist/index.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
-    }
-  },
+  "main": "dist/index.js",
   "scripts": {
     "build": "npx vue-cli-service build --traget lib --name index src/DoubleRangeSlider.vue",
     "build:common": "npx vue-cli-service build --target lib --name index src/DoubleRangeSlider.vue",
