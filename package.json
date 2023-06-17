@@ -1,7 +1,8 @@
 {
   "name": "vue-double-slider",
+  "description": "Custom made range slider with two thumbs for Vue. Create highly customizable double range sliders with ease.",
   "private": false,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "type": "module",
   "main": "./dist/vue-double-slider.umd.js",
   "module": "./dist/vue-double-slider.es.js",
