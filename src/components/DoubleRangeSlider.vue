@@ -15,7 +15,7 @@
   </template>
   
 <script>
-import ZbRangeSlider from './DoubleRangeSlider.js';
+import DoubleRangeSlider from './DoubleRangeSlider.js';
   
 export default {
   props: {
@@ -46,7 +46,7 @@ export default {
     }
   },
   mounted: function () {
-    this.instance = new ZbRangeSlider('my-slider')
+    this.instance = new DoubleRangeSlider('my-slider')
     this.instance.onChange = (min, max) => this.updateValues(min, max)
   },
   destroyed: function () {

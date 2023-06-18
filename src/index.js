@@ -1,5 +1,6 @@
 import DoubleRangeSlider from './components/DoubleRangeSlider.vue';
 
+export { DoubleRangeSlider } from './components/DoubleRangeSlider.vue';
 
 export default {
   install: (app, options) => {
