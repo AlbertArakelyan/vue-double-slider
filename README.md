@@ -7,7 +7,7 @@ Install with [npm](https://www.npmjs.com/):
 $ npm install vue-double-slider
 ```
 
-## Initiazlization and usage
+## Initialization and usage
 
 <small style="position: absolute; color: gray;">main.js</small>
 ```js
